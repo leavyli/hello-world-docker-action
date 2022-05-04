@@ -10,7 +10,7 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 ## notice
 on windows, you should overwriter execute bit as fllow
-link:(https://github.community/t/permission-denied-exec-entrypoint-sh/16216)
+(https://github.community/t/permission-denied-exec-entrypoint-sh/16216)
 
 ``` shell
 git add --chmod=+x -- entrypoint.sh
