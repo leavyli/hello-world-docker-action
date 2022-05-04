@@ -1,5 +1,5 @@
 ## notice
-on windows,  when you use chmod command +x for entrypoint.sh，  then you still should overwriter execute bit as fllow git commands.
+on windows,  when you use chmod command +x  for entrypoint.sh in git bash，  then you still should overwriter execute bit as fllow git commands. 
 (https://github.community/t/permission-denied-exec-entrypoint-sh/16216)
 
 ``` shell
