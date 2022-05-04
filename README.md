@@ -8,6 +8,16 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 **Required** The name of the person to greet. Default `"World"`.
 
+## notice
+on windows, you should overwriter execute bit as fllow
+link:(https://github.community/t/permission-denied-exec-entrypoint-sh/16216)
+
+``` shell
+git add --chmod=+x -- entrypoint.sh
+git commit
+
+```
+
 ## Outputs
 
 ## `time`
