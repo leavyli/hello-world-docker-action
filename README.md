@@ -1,3 +1,13 @@
+## notice
+on windows,  when you use chmod command +x for entrypoint.sh，  then you still should overwriter execute bit as fllow git commands.
+(https://github.community/t/permission-denied-exec-entrypoint-sh/16216)
+
+``` shell
+git add --chmod=+x -- entrypoint.sh
+git commit
+
+```
+
 # Hello world docker action
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
@@ -8,15 +18,7 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 **Required** The name of the person to greet. Default `"World"`.
 
-## notice
-on windows, you should overwriter execute bit as fllow
-(https://github.community/t/permission-denied-exec-entrypoint-sh/16216)
 
-``` shell
-git add --chmod=+x -- entrypoint.sh
-git commit
-
-```
 
 ## Outputs
 
